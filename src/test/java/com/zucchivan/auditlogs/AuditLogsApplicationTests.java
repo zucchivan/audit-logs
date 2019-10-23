@@ -87,4 +87,5 @@ class AuditLogsApplicationTests {
 				.andExpect(status().isOk());
 	}
 
+	// TODO: Kafka tests
 }

@@ -20,6 +20,6 @@ public class MessageListener {
     @KafkaListener(id = "logs-listener", topicPattern = "*-logs")
     public void listenLogsTopics(@Payload Log log, @Headers MessageHeaders headers) {
         LOGGER.info("received log message: ", log.toString());
-
+        logRepository.save(log);
     }
 }
