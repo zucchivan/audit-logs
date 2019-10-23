@@ -23,7 +23,7 @@ public class MongoConfiguration extends AbstractMongoConfiguration {
     @Override
     public MongoClient mongoClient() {
         /* TODO: move DB configuration to configuration file
-           TODO: PASSWORD SHOULD NOT USUALLY BE EXPOSED AND HARDCODED */
+           TODO: PASSWORD SHOULD NOT BE EXPOSED AND HARDCODED! )= */
         MongoClientURI uri = new MongoClientURI(
                 "mongodb+srv://ivan:admin@zucchivan-rigox.mongodb.net/test?retryWrites=true&w=majority");
         return new MongoClient(uri);

@@ -45,4 +45,13 @@ private Date dateCreated;
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }
+
+    @Override
+    public String toString() {
+        return "Log{" +
+                " userId='" + userId + '\'' +
+                ", dateCreated=" + dateCreated +
+                ", data='" + data + '\'' +
+                '}';
+    }
 }
