@@ -15,7 +15,8 @@ Please make sure to update tests as appropriate.
 
 ## To-Do
 
-- Use a optmized search engine to allow advanced search through logs
+- Use a optmized search engine to allow advanced search through logs.
+- Upgrade Java version and dependencies
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
